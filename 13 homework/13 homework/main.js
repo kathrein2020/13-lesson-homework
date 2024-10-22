@@ -50,6 +50,8 @@ fetch(api)
 let fromExchangeRate = data.conversion_rates[fromCurrency];
 let toExchangeRate = data.conversion_rates[toCurrency];
 
+//просчет и вывод на экран
+
 const convertedAmount = (amount / fromExchangeRate) * toExchangeRate;
 
 resultUSD.innerHTML = `${amount} ${fromCurrency} = ${convertedAmount.toFixed(2)}`;

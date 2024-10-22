@@ -4,7 +4,8 @@ currencies = [
     "EUR",
     "KZT",
     "RUB",
-    "CNY",
+    "CNY",    
+    "JPY",
 ] ;
 
 // коды стран валют из сайта

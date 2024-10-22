@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="app-details">
+        <img src="img/pic.jpg" class="app-icon">
+        <h1 class="app-title">Конвертация валютной пары</h1>
+    </div>
+
+    <label for="amount">Сумма:</label>
+    <input type="number" id="amount" value="1">
+
+    <div class="dropdowns">
+        <select id="from-cur-select"></select>
+        <select id="to-cur-select"></select>
+    </div>
+
+
+    <button id="convert-button"> Посчитать курс </button>
+    <p id="resultUSD"></p>
+  
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+     <script src="countrycodes.js"></script>  
+
+    <script src="main.js"></script> 
+
+</body>
+</html>

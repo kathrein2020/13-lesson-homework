@@ -24,7 +24,7 @@ currencies.forEach((currency) => {
 });
 
 
-//default значения
+// default значения
 fromDropDown.value = "USD";
 toDropDown.value = "KZT";
 
@@ -50,7 +50,7 @@ fetch(api)
 let fromExchangeRate = data.conversion_rates[fromCurrency];
 let toExchangeRate = data.conversion_rates[toCurrency];
 
-//просчет и вывод на экран
+//просчет и вывод на экран курса
 
 const convertedAmount = (amount / fromExchangeRate) * toExchangeRate;
 
